@@ -1,4 +1,4 @@
-from lib.interface import *
+from des115.lib.interface import *
 from time import sleep
 from des115.lib.arquivo import *
 
@@ -28,3 +28,4 @@ while True:
         print('\033[31mOpção incorreta!\033[m')
         linha()
         sleep(2)
+# Comentário para simular mudança
